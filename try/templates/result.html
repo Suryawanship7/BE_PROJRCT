@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Credit Default Prediction Result</title>
+  </head>
+  <body>
+    <h1>Credit Default Prediction Result</h1>
+    {% if prediction == 0 %}
+      <p>Congratulations, you are predicted to NOT default on your credit card payment next month.</p>
+    {% else %}
+      <p>Sorry, you are predicted to default on your credit card payment next month.</p>
+    {% endif %}
+  </body>
+</html>

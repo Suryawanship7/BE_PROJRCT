@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Style the form elements */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fade-in 1s ease-out;
+    }
+    
+    label {
+    display: block;
+    margin-top: 20px;
+    }
+    
+    input[type="number"] {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+    }
+    
+    input[type="number"]:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    input[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #0062cc;
+    }
+    
+    /* Define the animation */
+    @keyframes fade-in {
+    from {
+    opacity: 0;
+    transform: translateY(-10px);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+    }
+    
+    /* Add some responsive styles */
+    @media (max-width: 768px) {
+    form {
+    max-width: 100%;
+    }
+    }
+    
+   
+    
+    
+    
+    
+    
